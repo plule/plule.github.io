@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+# plule space
 
-You can use the [editor on GitHub](https://github.com/plule/plule.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+My projects include work around math art, experimental video games and boring tooling.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This is a list of some of them.
 
-### Markdown
+## dfhack-remote
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[dfhack-remote](https://github.com/plule/dfhack-remote) is a rust library to talk to the [Dwarf Fortress](http://www.bay12games.com/dwarves/) video game remotely.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```rust
+let mut client = dfhack_remote::connect().unwrap();
+let world_map = client.remote_fortress_reader.get_world_map().unwrap();
+println!(
+    "Welcome to {} ({}). It is the year {}.",
+    world_map.get_name(),
+    world_map.get_name_english(),
+    world_map.get_cur_year(),
+);
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## bevy-collapsor
 
-### Jekyll Themes
+[bevy-collapsor](https://github.com/plule/bevy-collapsor) is a quick and dirty rust program based on the [bevy engine](https://bevyengine.org/) generating terrains. It works [in a browser.](https://plule.github.io/bevy-collapsor/)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/plule/plule.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## MPCIC
 
-### Support or Contact
+[MPCIC](https://github.com/plule/MPCIC) is a commandline tool for creating instruments usable in the recent MPC drum machines.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## DEFract
+
+[DEFract](https://github.com/plule/DEFract) is a lua program drawing 3d fractals. I've not touched it in 10 years and I've no idea if it still works.
+
+![Rotated Mandelbox](http://i.imgur.com/Vshm6.jpg)
+
+## Jam games
+
+These games were done with limited time, a long time ago.
+
+- [A New World](https://github.com/plule/A-New-World): Psychedelism and recursivity in an office.
+- [Run and Escape](https://github.com/plule/LD48-24): Some run and jump game?
+- [1GAM-February](https://github.com/plule/1GAM-February): The one time I wrote javascript
+
