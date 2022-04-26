@@ -1,5 +1,3 @@
-# plule space
-
 My projects include work around math art, experimental video games and boring tooling.
 
 This is a list of some of them.
@@ -25,11 +23,11 @@ println!(
 
 ## MPCIC
 
-[MPCIC](https://github.com/plule/MPCIC) is a commandline tool for creating instruments usable in the recent MPC drum machines.
+[MPCIC](https://github.com/plule/MPCIC) is a C# commandline tool for creating instruments usable in the recent MPC drum machines.
 
 ## DEFract
 
-[DEFract](https://github.com/plule/DEFract) is a lua program drawing 3d fractals. I've not touched it in 10 years and I've no idea if it still works.
+[DEFract](https://github.com/plule/DEFract) is a lua program based on [LÖVE](https://love2d.org/) drawing 3d fractals.
 
 ![Rotated Mandelbox](http://i.imgur.com/Vshm6.jpg)
 
