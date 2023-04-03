@@ -2,6 +2,12 @@ My projects include work around math art, experimental video games and boring to
 
 This is a list of some of them.
 
+## Theremotion
+
+[Theremotion](https://plule.github.io/theremotion/) is a synthesizer inspired by the Theremin. You play it with gestures in the air.
+
+{% include youtube.html id="GGALeKm_uzc" %}
+
 ## MPC Valet
 
 [MPC Valet](https://plule.github.io/mpc_valet/) is an online tool to create sample based instruments to use on MPC drum machines.
@@ -44,4 +50,3 @@ These games were done with limited time, a long time ago.
 - [A New World](https://github.com/plule/A-New-World): Psychedelism and recursivity in an office.
 - [Run and Escape](https://github.com/plule/LD48-24): Some run and jump game?
 - [1GAM-February](https://github.com/plule/1GAM-February): The one time I wrote javascript
-
