@@ -1,20 +1,20 @@
-My projects include work around math art, experimental video games and boring tooling.
+## Current projects
 
-This is a list of some of them.
+These are the software and libraries done recently.
 
-## Theremotion
+### Theremotion
 
 [Theremotion](https://plule.github.io/theremotion/) is a synthesizer inspired by the Theremin. You play it with gestures in the air.
 
 {% include youtube.html id="GGALeKm_uzc" %}
 
-## MPC Valet
+### MPC Valet
 
 [MPC Valet](https://plule.github.io/mpc_valet/) is an online tool to create sample based instruments to use on MPC drum machines.
 
 ![capture](https://raw.githubusercontent.com/plule/mpc_valet/main/assets/capture.png)
 
-## dfhack-remote
+### dfhack-remote
 
 [dfhack-remote](https://github.com/plule/dfhack-remote) is a rust library to talk to the [Dwarf Fortress](http://www.bay12games.com/dwarves/) video game remotely.
 
@@ -29,21 +29,25 @@ println!(
 );
 ```
 
-## bevy-collapsor
+### bevy-collapsor
 
 [bevy-collapsor](https://github.com/plule/bevy-collapsor) is a quick and dirty rust program based on the [bevy engine](https://bevyengine.org/) generating terrains. It works [in a browser.](https://plule.github.io/bevy-collapsor/)
 
-## DEFract
+## Old Projects
+
+These projects are very old and unmaintained, but can still be of interest.
+
+### DEFract
 
 [DEFract](https://github.com/plule/DEFract) is a lua program based on [LÖVE](https://love2d.org/) drawing 3d fractals.
 
 ![Rotated Mandelbox](http://i.imgur.com/Vshm6.jpg)
 
-## MPCIC
+### MPCIC
 
 [MPCIC](https://github.com/plule/MPCIC) is a C# commandline tool for creating instruments usable in the recent MPC drum machines. I've since made MPC Valet with the same features but in the browser.
 
-## Jam games
+### Jam games
 
 These games were done with limited time, a long time ago.
 
