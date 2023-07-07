@@ -7,7 +7,7 @@ These are the software and libraries done recently.
 [Vox Uristi](https://plule.github.io/vox-uristi) is a tool to export maps from the game Dwarf Fortress to a voxel format and make
 pretty pictures.
 
-![capture](https://plule.github.io/vox-uristi/assets/arelumid.jpg)
+![vox-uristi](https://plule.github.io/vox-uristi/assets/gallery/heavenfall/iso.jpg)
 
 ### Theremotion
 
@@ -19,22 +19,19 @@ pretty pictures.
 
 [MPC Valet](https://plule.github.io/mpc_valet/) is an online tool to create sample based instruments to use on MPC drum machines.
 
-![capture](https://raw.githubusercontent.com/plule/mpc_valet/main/assets/capture.png)
+![mpc-valet](https://raw.githubusercontent.com/plule/mpc_valet/main/assets/capture.png)
 
 ### dfhack-remote
 
 [dfhack-remote](https://github.com/plule/dfhack-remote) is a rust library to talk to the [Dwarf Fortress](http://www.bay12games.com/dwarves/) video game remotely.
 
-```rust
-let mut client = dfhack_remote::connect().unwrap();
-let world_map = client.remote_fortress_reader.get_world_map().unwrap();
-println!(
-    "Welcome to {} ({}). It is the year {}.",
-    world_map.get_name(),
-    world_map.get_name_english(),
-    world_map.get_cur_year(),
-);
-```
+![dfhack-remote](https://github.com/plule/dfhack-remote/blob/main/images/dfhack-remote.png)
+
+### LeapRS
+
+LeapRS is a safe wrapper for LeapC, the [Leap Motion C API](https://docs.ultraleap.com/tracking-api/).
+
+![leaprs](https://raw.githubusercontent.com/plule/leaprs/main/images/leaprs.png)
 
 ### bevy-collapsor
 
