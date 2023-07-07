@@ -25,7 +25,7 @@ pretty pictures.
 
 [dfhack-remote](https://github.com/plule/dfhack-remote) is a rust library to talk to the [Dwarf Fortress](http://www.bay12games.com/dwarves/) video game remotely.
 
-![dfhack-remote](https://github.com/plule/dfhack-remote/blob/main/images/dfhack-remote.png)
+![dfhack-remote](https://raw.githubusercontent.com/plule/dfhack-remote/main/images/dfhack-remote.png)
 
 ### LeapRS
 
